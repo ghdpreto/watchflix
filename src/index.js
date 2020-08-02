@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+
+// css base
+import './styles/settings/colors.css'
+import './styles/reset.css'
 
 // desenhando na tela
 ReactDOM.render(
@@ -10,5 +13,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-
