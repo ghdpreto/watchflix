@@ -1,9 +1,13 @@
 import React from 'react';
+import LogoWatch from './components/LogoWatch';
+
 
 
 function App() {
   return (
-    <h1>Heloo world</h1>
+    <>
+      <LogoWatch />
+    </>
   );
 }
 
